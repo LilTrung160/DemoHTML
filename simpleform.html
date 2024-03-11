@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DemoForm</title>
+</head>
+<style>
+    #form_main {
+        font-family:"Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    }
+</style>
+<body>
+<h1>Order form</h1>
+<form action="simpleform.html" method="get" id="form_main">
+    <p>What would you like to order?</p><br>
+    <select name="" id="">
+        <option value="">A</option>
+        <option value="">B (+ 0.5$)</option>
+        <option value="">C (+ 0.5$)</option>
+        <option value="">D (+ 0.5$)</option>
+    </select>
+    <p>How many would you like to order?</p><br>
+    <input type="radio" name="radio">1 - $10 <br>
+    <input type="radio" name="radio">2 - $20 <br>
+    <input type="radio" name="radio">3 - $25 <br>
+    <p>Name <span style="color: red">*</span></p><br>
+    <input type="text" name="firstname" placeholder="FirstName">
+    <input type="text" name="lastname" placeholder="LastName"><br>
+    <p>Email</p><br>
+    <input type="text" name="email" size="35"><br>
+    <p>Phone Number</p><br>
+    <input type="text" name="phone1" size="5"> -
+    <input type="text" name="phone2" size="5"> -
+    <input type="text" name="phone3" size="5"><br>
+    <br>
+    <button>Submit</button>
+</form>
+</body>
+</html>
