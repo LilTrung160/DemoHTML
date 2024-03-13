@@ -1,0 +1,11 @@
+.div_fav{
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+label{
+    color: blue;
+}
+
